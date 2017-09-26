@@ -1,0 +1,23 @@
+
+@import "../../styles/_variables";
+
+.counter-component {
+  margin: 20px;
+  h1 {
+    margin: 20px 0;
+  }
+  button {
+    background-color: $v-black;
+    color: $v-white;
+    border-radius: 5px;
+    padding: 8px 16px;
+    border: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  footer {
+    position: absolute;
+    bottom: 20px;
+  }
+}
+

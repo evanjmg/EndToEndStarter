@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "noEmitHelpers": false,
+    "strictNullChecks": false,
+    "baseUrl": "./src",
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "es6",
+      "es5",
+      "es2015.promise",
+      "es7"
+    ],
+    "types": [
+      "node",
+      "protractor",
+      "react",
+      "react-dom",
+      "selenium-webdriver",
+      "webpack",
+      "mocha",
+      "chai",
+      "chai-as-promised"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "test"
+  ],
+
+  "awesomeTypescriptLoaderOptions": {
+    "forkChecker": true,
+    "useWebpackText": true
+  },
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "atom": { "rewriteTsconfig": false }
+}
