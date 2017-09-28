@@ -25,7 +25,6 @@
       "react-dom",
       "selenium-webdriver",
       "webpack",
-      "mocha",
       "chai",
       "chai-as-promised"
     ]

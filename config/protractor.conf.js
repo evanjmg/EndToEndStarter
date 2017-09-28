@@ -90,7 +90,6 @@ if (process.argv[3] === '--chrome') {
 }
 else {
   exports.config.multiCapabilities = [
-    browsers.chrome,
-    browsers.safari
+    browsers.chrome
   ];
 }
